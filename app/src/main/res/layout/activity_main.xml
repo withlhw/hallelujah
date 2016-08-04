@@ -17,7 +17,7 @@
     <ImageView android:id="@+id/intro_image"
         android:layout_height="fill_parent"
         android:layout_width="fill_parent"
-        android:visibility="visible"
+        android:visibility="invisible"
         android:src="@drawable/intro"
         />
 
