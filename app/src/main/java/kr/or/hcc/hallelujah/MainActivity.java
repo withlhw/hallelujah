@@ -24,9 +24,12 @@ public class MainActivity extends Activity {
         mWebView = (WebView)findViewById(R.id.activity_main_webview);
 
         mImageView.setVisibility(View.VISIBLE);
+        mWebView.setVisibility(View.INVISIBLE);
+
         new Handler().postDelayed(new Runnable(){
             public void run() {
-                mImageView.setVisibility(View.GONE);
+            mImageView.setVisibility(View.GONE);
+            mWebView.setVisibility(View.VISIBLE);
             }
         }, 3000);
 
